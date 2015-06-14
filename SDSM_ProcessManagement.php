@@ -21,7 +21,7 @@ class SDSM_ProcessManagement {
     //start the domain checker
     public function StartChecker(){
         file_put_contents("pid.txt",getmypid());
-        $this->DC1->CheckAll();
+        $this->DC1->Check_ALL_For_Current_TLD_and_Adv_To_Next();
     }
 
 

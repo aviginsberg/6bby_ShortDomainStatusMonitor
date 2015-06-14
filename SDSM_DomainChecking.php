@@ -125,6 +125,10 @@ class SDSM_DomainChecking {
 
     //returns true if domain is AVAILABLE, else returns false
     function CheckByWhois($host){
+       //generate a set of semi-false results based purely on ping
+        sleep(0.1);
+        return TRUE;
+
         if($this->DAC1->isAvailable($host)){
             echo "\nDomain $host is available!\n";
             sleep (0.5);

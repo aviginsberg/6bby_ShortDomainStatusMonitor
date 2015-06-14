@@ -80,6 +80,14 @@ class SDSM_FileManagement {
         }
     }
 
+    function Get_Number_Of_Items_In_TLD_Bucket($tld){
+        return count(scandir("data/tld_buckets/$tld"))-2;
+    }
+
+    //returns as array
+    function Get_TLD_Bucket_List_Contents_By_Number($tld,$listnum){
+        return file("data/tld_buckets/$tld/$listnum.txt");
+    }
 
 
 }

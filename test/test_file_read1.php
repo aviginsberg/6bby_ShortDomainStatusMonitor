@@ -6,6 +6,9 @@
  *
  */
 
+//kill this test script since it's now on the production server and could interfere with things if run by accident
+die();
+
 require_once("SDSM_FileManagement.php");
 
 $FM = new SDSM_FileManagement();
