@@ -1,0 +1,245 @@
+ac: 3
+ad: 
+ae: 2
+af: 2
+ag: 1
+ai: 2
+al: 3
+am: 3
+ao: 
+aq: 3
+ar: 
+as: 3
+at: 3
+au: 
+aw: 3
+ax: 2
+az: 3
+ba: 3
+bb: 3
+bd: 
+be: 2
+bf: 3
+bg: 3
+bh: 3
+bi: 3
+bj: 3
+bm: 3
+bn: 
+bo: 3
+br: 
+bs: 3
+bt: 3
+bw: 1
+by: 2
+bz: 3
+ca: 2
+cc: 3
+cd: 4
+cf: 4
+cg: 3
+ch: 3
+ci: 3
+ck: 
+cl: 3
+cm: 2
+cn: 3
+co: 3
+cr: 3
+cu: 
+cv: 3
+cw: 2
+cx: 3
+cy: 
+cz: 2
+de: 3
+dj: 3
+dk: 3
+dm: 4
+do: 3
+dz: 2
+ec: 3
+ee: 2
+eg: 3
+er: 
+es: 3
+et: 
+eu: 2
+fi: 2
+fj: 
+fk: 
+fm: 2
+fo: 4
+fr: 1
+ga: 4
+gd: 3
+ge: 3
+gf: 3
+gg: 2
+gh: 
+gi: 3
+gl: 3
+gm: 
+gn: 
+gp: 3
+gq: 4
+gr: 3
+gs: 3
+gt: 3
+gu: 
+gw: 2
+gy: 1
+hk: 2
+hm: 
+hn: 2
+hr: 3
+ht: 3
+hu: 2
+id: 5
+ie: 3
+il: 
+im: 3
+in: 3
+io: 3
+iq: 2
+ir: 
+is: 3
+it: 3
+je: 2
+jm: 
+jo: 2
+jp: 3
+ke: 
+kg: 3
+kh: 
+ki: 3
+km: 
+kn: 3
+kp: 
+kr: 3
+kw: 
+ky: 3
+kz: 3
+la: 3
+lb: 
+lc: 1
+li: 3
+lk: 4
+lr: 
+ls: 
+lt: 2
+lu: 3
+lv: 3
+ly: 4
+ma: 3
+mc: 3
+md: 3
+me: 3
+mg: 3
+mh: 
+mk: 3
+ml: 4
+mm: 
+mn: 3
+mo: 3
+mp: 3
+mq: 4
+mr: 3
+ms: 1
+mt: 
+mu: 4
+mv: 
+mw: 1
+mx: 3
+my: 1
+mz: 
+na: 3
+nc: 3
+ne: 3
+nf: 3
+ng: 3
+ni: 3
+nl: 2
+no: 2
+np: 
+nr: 3
+nu: 3
+nz: 3
+om: 2
+pa: 3
+pe: 1
+pf: 3
+pg: 
+ph: 
+pk: 4
+pl: 3
+pm: 3
+pn: 3
+pr: 3
+ps: 4
+pt: 3
+pw: 2
+py: 
+qa: 3
+re: 3
+ro: 3
+rs: 2
+ru: 2
+rw: 3
+sa: 3
+sb: 
+sc: 3
+sd: 
+se: 2
+sg: 3
+sh: 3
+si: 2
+sk: 3
+sl: 4
+sm: 3
+sn: 3
+so: 3
+sr: 3
+ss: 
+st: 3
+su: 2
+sv: 3
+sx: 
+sy: 
+sz: 
+tc: 2
+td: 3
+tf: 3
+tg: 3
+th: 2
+tj: 2
+tk: 4
+tl: 1
+tm: 1
+tn: 2
+to: 2
+tr: 
+tt: 2
+tv: 3
+tw: 2
+tz: 
+ua: 1
+ug: 3
+uk: 3
+us: 3
+uy: 1
+uz: 2
+va: 
+vc: 2
+ve: 
+vg: 3
+vi: 3
+vn: 3
+vu: 1
+wf: 3
+ws: 4
+ye: 
+yt: 3
+za: 
+zm: 
+zw: 
