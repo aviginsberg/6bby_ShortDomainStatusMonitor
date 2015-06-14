@@ -22,12 +22,12 @@
         </nav>
     </header>
 
-
-
+    <? $domain = trim($_GET['domain']); if(!preg_match('/^[a-zA-Z0-9]{2,3}$/',$domain)){die("This service only supports 2 and 3 character domains. $domain is not within that range.");} ?>
+    <? $tld = $_GET['TLD']; if(!preg_match('/^[a-z]{2}$/',$tld)){die("invalid TLD");} ?>
     <div class="info">
         <article class="hero clearfix">
             <div class="col_100">
-                <h1>How the SDSM Works</h1>
+                <h1>Availability check for <? echo "$domain.$tld"; ?></h1>
 
             </div>
         </article>
@@ -41,24 +41,24 @@
 
             <div class="col_100">
 
-                <h2>Checking the Domains</h2>
                 <p class="col_100">
+                    <?
+                    require_once("SDSM_Search.php");
 
-                   blah blah blah
+                    $Search = new SDSM_Search();
+
+                    if($Search->CheckIfAvailable($domain,$tld)){
+                        echo '<p class="success"><code><font style="font-size:2.0em;">'.$domain.'.'.$tld.' is available! :)</font></code></p>';
+                    }else{
+                        echo '<p class="warning"><code><font style="font-size:2.0em;">'.$domain.'.'.$tld.' is not available! :(</font></code></p>';
+                    }
+
+
+
+                    ?>
                 </p>
 
-                <h2>Listing Available Domains</h2>
-                <p class="col_100">
 
-                    blah blah blah
-                </p>
-
-
-                <h2>Searching Available Domains</h2>
-                <p class="col_100">
-
-                    blah blah blah
-                </p>
 
             </div>
 

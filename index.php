@@ -47,14 +47,14 @@
                     <h2>Search by TLD</h2>
 
                     <p class="col_50">
-                        <label for="name">Domain:</label><br/>
-                        <input type="text" name="name" id="name" value="" />
+                        <label for="name">Domain (3char max):</label><br/>
+                        <input type="text" name="domain" id="domain" size="3" value="" />
                     </p>
 
 
                     <p>
-                        <label for="select-choice">TLD:</label><br>
-                        <select name="TLD" id="TLD">
+                        <label for="TLD">TLD:</label><br>
+                        <select name="TLD" id="TLD" class="left">
                             <option value="ax">.ax</option>
                             <option value="by">.by</option>
                             <option value="ch">.ch</option>
@@ -116,7 +116,7 @@
 
     <footer class="footer clearfix">
 
-        <font style="font-size:.7em;"><u>Credits:</u><br>Web Layout CSS by Renat Rafikov (cssr.ru) | Whois AvailabilityService PHP Class by Helge Sverre | Everything else was created by Avi Ginsberg | Full code available on <a href="https://github.com/aviginsberg/6bby_ShortDomainStatusMonitor">Github</a></font>
+        <font style="font-size:.7em;"><u>Credits:</u><br>Web Layout CSS by Renat Rafikov (cssr.ru) | Whois AvailabilityService PHP Class by Helge Sverre | Everything else was created by Avi Ginsberg | Full code available on <a href="https://github.com/aviginsberg/6bby_ShortDomainStatusMonitor" target="_blank">Github</a></font>
 
 
 
