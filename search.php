@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <? $domain = trim($_GET['domain']); if(!preg_match('/^[a-zA-Z0-9]{2,3}$/',$domain)){die("This service only supports 2 and 3 character domains. $domain is not within that range.");} ?>
+    <? $domain = trim($_GET['domain']); if(!preg_match('/^[a-zA-Z0-9]{2,3}$/',$domain)){die("<h1 style=\"color:red;\">This service only supports 2 and 3 character domains. $domain is not within that range.</h1>");} ?>
     <? $tld = $_GET['TLD']; if(!preg_match('/^[a-z]{2}$/',$tld)){die("invalid TLD");} ?>
     <div class="info">
         <article class="hero clearfix">
